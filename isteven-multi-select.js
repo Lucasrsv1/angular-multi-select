@@ -1077,7 +1077,7 @@ angular.module( 'isteven-multi-select', ['ng'] ).directive( 'istevenMultiSelect'
                         '</button>' +
                     '</div>' +
                     // the search box
-                    '<div class="line" style="position:relative" ng-if="helperStatus.filter">'+
+                    '<div class="line position-relative" ng-if="helperStatus.filter">'+
                         // textfield
                         '<input placeholder="{{lang.search}}" type="text"' +
                             'ng-click="select( \'filter\', $event )" '+
